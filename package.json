@@ -2,7 +2,7 @@
   "name": "hengbo-ai",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc"
+    "build": "echo 'No build step needed for Vercel Node runtime'"
   },
   "dependencies": {
     "express": "^4.19.2",

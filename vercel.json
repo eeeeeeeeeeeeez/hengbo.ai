@@ -8,8 +8,12 @@
   ],
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "/api/live-ws",
       "dest": "server.ts"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "page.tsx"
     }
   ]
 }
